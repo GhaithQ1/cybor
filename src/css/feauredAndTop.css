@@ -1,0 +1,131 @@
+.featured {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.featured .content {
+  flex: 3;
+height: 100%;
+  background-color: #1f2122;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  padding: 20px 30px;
+}
+
+.featured .content .main_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.featured .content .main_content .smoll-content img {
+  width: 200px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+
+
+
+.top {
+  flex: 1;
+  height: 100%;
+  padding: 20px 30px;
+  background-color: #1f2122;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.top .text {
+  font-size: 35px;
+}
+.top .content {
+  padding: 20px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #27292a;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.top .content .state {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.top .content .state img {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.top .content .state .info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.top .content .state .info p {
+  color: white;
+  font-weight: bold;
+}
+.top .content .state .info span {
+  color: #666;
+}
+
+.top .content .state .info .icon {
+  display: flex;
+}
+.top .content .state .info .icon i:first-child {
+  color: yellow;
+  margin-right: 5px;
+}
+.top .content .state .info .icon i {
+  color: #e75e8d;
+  margin-right: 5px;
+}
+.top .content .state .info .icon span {
+  color: #666;
+  margin-right: 20px;
+}
+.top .content .downlo {
+  color: #e75e8d;
+  font-size: 20px;
+  padding: 10px 10px 11px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #27292a;
+}
+
+
+@media (max-width: 767px){
+  .featured .content .main_content{
+    justify-content: center;
+  }
+  .top .text{
+    font-size: 14px;
+  }
+  .top .content .state img{
+    width: 50px;
+  }
+  .top .content .downlo{
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,66 @@
+import game01 from "../images/game01.jpg";
+import game02 from "../images/game02.jpg";
+import game03 from "../images/game03.jpg";
+
+export const DataDetils = [
+  {
+    id: 1,
+    img: game01,
+    namegame: "Dota 2",
+    desname: "Sandbox",
+    avreg: "4.8",
+    iconavreg: "fa fa-star",
+    downlod: "2.3M",
+    icondownlod: "fa fa-download",
+  },
+  {
+    id: 2,
+    img: game02,
+    namegame: "Dota 2",
+    desname: "Sandbox",
+    avreg: "4.8",
+    iconavreg: "fa fa-star",
+    downlod: "2.3M",
+    icondownlod: "fa fa-download",
+  },
+  {
+    id: 3,
+    img: game03,
+    namegame: "Dota 2",
+    desname: "Sandbox",
+    avreg: "4.8",
+    iconavreg: "fa fa-star",
+    downlod: "2.3M",
+    icondownlod: "fa fa-download",
+  },
+  {
+    id: 4,
+    img: game01,
+    namegame: "Dota 2",
+    desname: "Sandbox",
+    avreg: "4.8",
+    iconavreg: "fa fa-star",
+    downlod: "2.3M",
+    icondownlod: "fa fa-download",
+  },
+  {
+    id: 5,
+    img: game02,
+    namegame: "Dota 2",
+    desname: "Sandbox",
+    avreg: "4.8",
+    iconavreg: "fa fa-star",
+    downlod: "2.3M",
+    icondownlod: "fa fa-download",
+  },
+  {
+    id: 6,
+    img: game03,
+    namegame: "Dota 2",
+    desname: "Sandbox",
+    avreg: "4.8",
+    iconavreg: "fa fa-star",
+    downlod: "2.3M",
+    icondownlod: "fa fa-download",
+  },
+];

@@ -1,0 +1,97 @@
+.main_content_profie{
+    background-color: #1f2122;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 20px 30px;
+    margin: 20px 0 60px;
+    
+}
+.main_content_profie .content_profile{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 1px solid #27292a;
+  padding-bottom: 40px;
+}
+
+.content_profile img{
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+@media(max-width:767px){
+  .content_profile img{
+    width: 100%;
+}
+}
+
+.content_profile .content span{
+      color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #e75e8d;
+    display: inline-block;
+    margin: 10px 0;
+    border: none;
+}
+.content_profile .content h2{
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.content_profile .content p{
+    color: #666;
+    line-height: 1.9;
+    padding: 10px 0;
+}
+.content_profile .content button{
+    color: #e75e8d;
+    background: no-repeat;
+    padding: 15px 25px;
+    margin: 10px 0;
+    border: 1px solid #e75e8d;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.content_profile .content button:hover{
+  background-color: #e75e8d;
+  color: white;
+}
+
+.content_profile .game{
+  flex: 1;
+  background-color: #27292a;
+  padding: 20px 30px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.content_profile .game .text_profile{
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content_profile .game .text_profile:not(:last-child){
+  border-bottom:1px solid #666 ;
+}
+
+.content_profile .game .text_profile p{
+  color: #666;
+}
+.content_profile .game .text_profile span{
+  color: #e75e8d;
+}

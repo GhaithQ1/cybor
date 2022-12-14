@@ -1,0 +1,52 @@
+.clips{
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(250px ,1fr));
+  gap: 20px;
+  padding:20px 0;
+}
+
+.clips .box_profile{
+  padding: 30px 20px ;
+  background-color: #27292a;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.clips .box_profile img{
+  width: 100%;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.clips .box_profile .clip{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top:20px ;
+}
+.clips .box_profile .clip p{
+  color: white;
+}
+.clips .box_profile .clip .icon_profile{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.clips .box_profile .clip .icon_profile i{
+  color: #e75e8d;
+}
+.clips .box_profile .clip .icon_profile span{
+  color: white;
+}
+
+.butclips{
+    margin: 15px auto;
+    display: block;
+    font-size: 17px;
+    border: none;
+}

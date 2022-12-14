@@ -1,0 +1,72 @@
+.your_gaming {
+  background-color: #1f2122;
+  padding: 30px 20px 40px;
+  border-radius: 30px;
+  margin: 50px 0;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.your_gaming h2 {
+  font-size: 40px;
+  color: white;
+  padding-bottom: 20px;
+}
+.your_gaming h2 span {
+  color: #e75e8d;
+}
+.your_gaming .game .smoll_game {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.your_gaming .smoll_game:not(:last-child) {
+  border-bottom: 1px solid #27292a;
+}
+.your_gaming .smoll_game img {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.your_gaming .smoll_game p {
+  color: white;
+  font-weight: bold;
+}
+.your_gaming .smoll_game span {
+  color: #666;
+}
+.your_gaming .smoll_game button {
+  padding: 10px 20px;
+  background-color: #e75e8d;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  font-size: 18px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  cursor: pointer;
+      margin: 0;
+}
+.your_gaming .smoll_game button:hover {
+  background-color: white;
+  color: #e75e8d;
+}
+
+
+@media (max-width: 767px){
+  .your_gaming .game .smoll_game{
+    flex-direction: column;
+    gap: 10px;
+  }
+}
